@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color:#370617;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+}
+
+.card {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 468px;
+  height: 160px;
+  background-color: #F48C06;
+  border-radius: 5px;
+  display: flex;
+  gap: 10px;
+}
+
+.card_item {
+  width: 80px;
+  height: 80px;
+  border-radius: 5%;
+  background-color: #9D0208;
+}
+
+.card-1 {
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+.card-2 {
+  justify-content: center;
+  align-items: stretch;
+}
+
+.card-2_item {
+  width: 80px;
+  border-radius: 5%;
+  background-color: #9D0208;
+}
+
+.card-3 {
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.card-4 {
+  justify-content: space-between;
+}
+
+.card-4_item {
+  align-self: flex-end;
+}
+
+.card-5 {
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.card-5_item {
+  width: 80px;
+  height: 120px;
+  padding-top: 20px;
+  border-radius: 5%;
+  background-color: #9D0208;
+  color: aliceblue;
+  text-align: center;
+}
+
+.card-5_item-middle {
+  width: 80px;
+  height: 65px;
+  padding-top: 10px;
+  border-radius: 5%;
+  background-color: #9D0208;
+}
+
+.card-6 {
+  justify-content: center;
+  align-items: center;
+}
+
+.card-6_item-middle {
+  flex-grow: 0.5;
+}
+
+
+
+
